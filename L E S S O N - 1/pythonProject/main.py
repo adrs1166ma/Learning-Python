@@ -5,4 +5,4 @@ if vacaciones or diaDescanso:
     print('Puede asistir al juego')
 else:
     print('Tiene deberes por hacer')
-    #RESOLVER PROBLEMA
+    #PROBLEMA RESUELTO

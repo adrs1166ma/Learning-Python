@@ -1,8 +1,7 @@
-vacaciones = False
-diaDescanso = False
+n1 = int(input('Proporciona el Numero 1: '))
+n2 = int(input('Proporciona el Numero 2: '))
 
-if vacaciones or diaDescanso:
-    print('Puede asistir al juego')
+if n1 > n2:
+    print('Numero 1 es mayor')
 else:
-    print('Tiene deberes por hacer')
-    #PROBLEMA RESUELTO
+    print('Numero 2 es mayor')

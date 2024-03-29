@@ -15,7 +15,7 @@ while contador < 3:
 else:
     print('Fin ciclo while')
 """
-#----
+# ----
 """
 #52. Ejercicio Propuesto - Imprimir numeros del 0 al 5
 c = 0
@@ -29,7 +29,7 @@ else:
 #----
 #53. SOL
 """
-#----
+# ----
 """
 #54. Ej P - Ciclo While Descendente
 c = 5
@@ -40,7 +40,7 @@ while c >= min:
 #----
 #55. SOL
 """
-#----
+# ----
 """
 #56. Ciclo for en Python
 cadena = 'Hola'
@@ -50,7 +50,7 @@ for letra in cadena:   #----------------------- in = dentro (de cada de elemento
 else:
     print('Fin ciclo for')
 """
-#----
+# ----
 """
 #57. Palabra breack en Python
 for letra in 'Holanda':
@@ -60,9 +60,9 @@ for letra in 'Holanda':
 else:
     print('Fin ciclo for')
 """
-#----
+# ----
 
-#58. Palabra continue en Python
+# 58. Palabra continue en Python
 
 # for i in range(6):
 #     if i % 2 == 0:
@@ -73,6 +73,4 @@ for i in range(6):
     if i % 2 != 0:
         continue
     print(f'Valor: {i}')
-#----
-
-
+# ----

@@ -5,7 +5,7 @@ y regresar como resultado la suma de todos los valores pasados como argumentos.
 """
 
 
-# Definimos nuestra funcion para sumar valores
+# Definimos nuestra funcion para sumar valores #si aun no se quiere agregar algo se coloca : pass despeus del def
 def sumar_valores(*args):
     resultado = 0
     # Iteramos cada elemento

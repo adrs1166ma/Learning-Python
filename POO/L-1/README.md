@@ -2,7 +2,7 @@
 
 > www.umletino.com/umletino.html
 
-
+#pass : no va tener ningun contenido aun
 Diagrama de clases de tipo UML
 Unified Modeling Language
 Utilizada para documentar Clases, Objetos, etc

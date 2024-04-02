@@ -21,3 +21,4 @@ print('Creación objetos'.center(30,'-'))
 
 ----
 
+MRO - Method Order Resolution en Python

@@ -32,3 +32,6 @@ get y set
 
 vlaidaciones es darle un rango a las clases u objetos
 tambien en los get y set
+
+al agregar una clase abstracta, obligamos a las hijas a tener esa misma clase,
+y la clase que tenga el metodo abstacto  toda la clase se vuelve abstracta

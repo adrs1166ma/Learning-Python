@@ -22,3 +22,13 @@ print('Creación objetos'.center(30,'-'))
 ----
 
 MRO - Method Order Resolution en Python
+
+para hacer una clase con test
+crear class
+def init
+encapsular
+get y set
+
+
+vlaidaciones es darle un rango a las clases u objetos
+tambien en los get y set

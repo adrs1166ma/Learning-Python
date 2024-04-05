@@ -84,5 +84,7 @@ incrementar valor como un primary key por id de persona
 06-07 
 mejorar la logica atravez del metodo clase
 
+---
 
+07-00
 

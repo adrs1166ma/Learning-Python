@@ -1,0 +1,1 @@
+# Imprimir los números enteros del 0 al 5 utilizando un ciclo while

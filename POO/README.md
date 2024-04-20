@@ -94,3 +94,19 @@ add | addition | suma
 sub | substraction | resta
 
 
+
+## Lo aprendido hoy 
+- Clases
+- inicializar clase
+- encapsulamiento
+- getter & setter 
+- `__str()__`
+- herencia
+- herencias multiples
+- poner limites a las instancias
+- clases abstractas
+- variables de clases - variables de instancia
+- contexto estatico - contexto dinamico
+- metodo estatico - metodo de clase
+- contador de objetos
+

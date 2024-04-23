@@ -34,7 +34,7 @@ class FiguraGeometrica:
             print(f'Valor erroneo alto: {alto}')
 
     def __str__(self):
-        return f'FiguraGeometrica [Ancho: {self._ancho}, Alto: {self.alto} ]'
+        return f'FiguraGeometrica [Ancho: {self._ancho}, Alto: {self.alto}]'
 
     def _validar_valor(self, valor):
         return True if 0 < valor < 10 else False

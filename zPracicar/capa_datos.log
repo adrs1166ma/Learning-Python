@@ -1,0 +1,48 @@
+09:34:55 AM: DEBUG [logger_base.py:12] Mensaje a nivel debug
+09:34:55 AM: INFO [logger_base.py:13] Mensaje a nivel info
+09:34:55 AM: WARNING [logger_base.py:14] Mensaje a nivel de warning
+09:34:55 AM: ERROR [logger_base.py:15] Mensaje a nivel de error
+09:34:55 AM: CRITICAL [logger_base.py:16] Mensaje a nivel critico
+09:35:07 AM: DEBUG [persona.py:42] 
+            ID Persona: 1, Nombre: Juan,
+            Apellido: Perez, Email: jperez@gmail.com
+        
+10:00:45 AM: DEBUG [persona.py:43] 
+            ID Persona: 1, Nombre: Juan,
+            Apellido: Perez, Email: jperez@gmail.com
+        
+10:00:45 AM: DEBUG [persona.py:44] 
+            ID Persona: None, Nombre: Ana,
+            Apellido: Jimnez, Email: ffwa@gmail.com
+        
+10:02:21 AM: DEBUG [persona.py:42] 
+            ID Persona: 1, Nombre: Juan,
+            Apellido: Perez, Email: jperez@gmail.com
+        
+10:02:21 AM: DEBUG [persona.py:46] 
+            ID Persona: None, Nombre: Ana,
+            Apellido: Jimnez, Email: ffwa@gmail.com
+        
+10:02:21 AM: DEBUG [persona.py:50] 
+            ID Persona: 1, Nombre: None,
+            Apellido: None, Email: None
+        
+10:43:46 AM: DEBUG [logger_base.py:12] Mensaje a nivel debug
+10:43:46 AM: INFO [logger_base.py:13] Mensaje a nivel info
+10:43:46 AM: WARNING [logger_base.py:14] Mensaje a nivel de warning
+10:43:46 AM: ERROR [logger_base.py:15] Mensaje a nivel de error
+10:43:46 AM: CRITICAL [logger_base.py:16] Mensaje a nivel critico
+10:53:54 AM: DEBUG [conexion.py:22] Conexion exitosa: <connection object at 0x0000014B10757890; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+10:53:54 AM: DEBUG [conexion.py:35] Se abrio correctamente el cursos: <cursor object at 0x0000014B121E3220; closed: 0>
+11:11:15 AM: DEBUG [persona.py:42] 
+            ID Persona: 1, Nombre: Juan,
+            Apellido: Perez, Email: jperez@gmail.com
+        
+11:11:15 AM: DEBUG [persona.py:46] 
+            ID Persona: None, Nombre: Ana,
+            Apellido: Jimnez, Email: ffwa@gmail.com
+        
+11:11:15 AM: DEBUG [persona.py:50] 
+            ID Persona: 1, Nombre: None,
+            Apellido: None, Email: None
+        

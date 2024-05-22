@@ -1,0 +1,130 @@
+07:12:39 AM: DEBUG [conexion.py:16] Conexion exitosa: <sqlite3.Connection object at 0x0000018C80B65210>
+07:12:39 AM: DEBUG [conexion.py:29] Se abrio correctamente el cursor: <sqlite3.Cursor object at 0x0000018C810616C0>
+07:12:39 AM: DEBUG [conexion.py:45] Tabla "Producto"creada
+07:12:46 AM: DEBUG [conexion.py:16] Conexion exitosa: <sqlite3.Connection object at 0x0000020E43FF5210>
+07:12:46 AM: DEBUG [conexion.py:29] Se abrio correctamente el cursor: <sqlite3.Cursor object at 0x0000020E446516C0>
+07:12:46 AM: ERROR [conexion.py:47] 
+                        La tabla ya esta creada: [table PRODUCTO already exists]
+                        
+07:14:57 AM: DEBUG [conexion.py:16] Conexion exitosa: <sqlite3.Connection object at 0x000001651FD05210>
+07:14:57 AM: DEBUG [conexion.py:29] Se abrio correctamente el cursor: <sqlite3.Cursor object at 0x0000016520367D40>
+07:14:57 AM: ERROR [producto_dao.py:48] 
+                        Al insertar ocurrio una excepcion [near "%": syntax error]
+                        Crea una tabla con la Opcion 6
+07:14:57 AM: DEBUG [producto_dao.py:95] Productos insertados: None
+07:14:57 AM: ERROR [producto_dao.py:117] Crea TABLA 
+07:16:43 AM: DEBUG [conexion.py:16] Conexion exitosa: <sqlite3.Connection object at 0x0000025A6E9E5210>
+07:16:43 AM: DEBUG [conexion.py:29] Se abrio correctamente el cursor: <sqlite3.Cursor object at 0x0000025A6F0AF240>
+07:16:43 AM: ERROR [producto_dao.py:48] 
+                        Al insertar ocurrio una excepcion [near "%": syntax error]
+                        Crea una tabla con la Opcion 6
+07:16:43 AM: DEBUG [producto_dao.py:95] Productos insertados: None
+07:16:43 AM: ERROR [producto_dao.py:117] Crea TABLA 
+07:30:07 AM: DEBUG [conexion.py:16] Conexion exitosa: <sqlite3.Connection object at 0x0000027964045210>
+07:30:07 AM: DEBUG [conexion.py:29] Se abrio correctamente el cursor: <sqlite3.Cursor object at 0x000002796469F240>
+07:30:07 AM: DEBUG [producto_dao.py:45] Producto insertado: 
+            ID Producto: None, codigo: XXZ,
+            Nombre: Jabon Bolivar, Precio: 5
+        
+07:30:07 AM: DEBUG [producto_dao.py:95] Productos insertados: 1
+07:30:07 AM: DEBUG [producto_dao.py:115] 
+            ID Producto: 1, codigo: XXZ,
+            Nombre: Jabon Bolivar, Precio: 5.0
+        
+07:32:05 AM: DEBUG [conexion.py:16] Conexion exitosa: <sqlite3.Connection object at 0x0000017C633F5210>
+07:32:05 AM: DEBUG [conexion.py:29] Se abrio correctamente el cursor: <sqlite3.Cursor object at 0x0000017C63A4F240>
+07:32:05 AM: DEBUG [producto_dao.py:45] Producto insertado: 
+            ID Producto: None, codigo: XXA,
+            Nombre: Papa Lay, Precio: 2
+        
+07:32:05 AM: DEBUG [producto_dao.py:95] Productos insertados: 1
+07:32:05 AM: DEBUG [producto_dao.py:115] 
+            ID Producto: 1, codigo: XXZ,
+            Nombre: Jabon Bolivar, Precio: 5.0
+        
+07:40:48 AM: DEBUG [conexion.py:16] Conexion exitosa: <sqlite3.Connection object at 0x000001C4540D5210>
+07:40:48 AM: DEBUG [producto_dao.py:115] 
+            ID Producto: 1, codigo: XXZ,
+            Nombre: Jabon Bolivar, Precio: 5.0
+        
+07:40:48 AM: DEBUG [producto_dao.py:115] 
+            ID Producto: 2, codigo: XXA,
+            Nombre: Papa Lay, Precio: 2.0
+        
+07:43:18 AM: DEBUG [conexion.py:16] Conexion exitosa: <sqlite3.Connection object at 0x000002751B605210>
+07:43:18 AM: DEBUG [conexion.py:29] Se abrio correctamente el cursor: <sqlite3.Cursor object at 0x000002751BC67140>
+07:43:18 AM: DEBUG [producto_dao.py:45] Producto insertado: 
+            ID Producto: None, codigo: XXB,
+            Nombre: Galleta Ritz, Precio: 3
+        
+07:43:18 AM: DEBUG [producto_dao.py:95] Productos insertados: 1
+07:43:18 AM: DEBUG [producto_dao.py:115] 
+            ID Producto: 1, codigo: XXZ,
+            Nombre: Jabon Bolivar, Precio: 5.0
+        
+07:43:18 AM: DEBUG [producto_dao.py:115] 
+            ID Producto: 2, codigo: XXA,
+            Nombre: Papa Lay, Precio: 2.0
+        
+07:43:18 AM: DEBUG [producto_dao.py:115] 
+            ID Producto: 3, codigo: XXB,
+            Nombre: Galleta Ritz, Precio: 3.0
+        
+07:45:58 AM: DEBUG [conexion.py:16] Conexion exitosa: <sqlite3.Connection object at 0x0000013D6E8E5210>
+07:45:58 AM: DEBUG [conexion.py:29] Se abrio correctamente el cursor: <sqlite3.Cursor object at 0x0000013D6EF47140>
+07:45:58 AM: DEBUG [producto_dao.py:63] Producto actualizada: 
+            ID Producto: 2, codigo: XXQ,
+            Nombre: Ajinomen, Precio: 10
+        
+07:45:58 AM: DEBUG [producto_dao.py:101] Prodructos actualizados: 1
+07:45:58 AM: DEBUG [producto_dao.py:116] 
+            ID Producto: 1, codigo: XXZ,
+            Nombre: Jabon Bolivar, Precio: 5.0
+        
+07:45:58 AM: DEBUG [producto_dao.py:116] 
+            ID Producto: 2, codigo: XXQ,
+            Nombre: Ajinomen, Precio: 10.0
+        
+07:45:58 AM: DEBUG [producto_dao.py:116] 
+            ID Producto: 3, codigo: XXB,
+            Nombre: Galleta Ritz, Precio: 3.0
+        
+07:47:05 AM: DEBUG [conexion.py:16] Conexion exitosa: <sqlite3.Connection object at 0x0000021ED9EC5210>
+07:47:05 AM: DEBUG [conexion.py:29] Se abrio correctamente el cursor: <sqlite3.Cursor object at 0x0000021EDA5231C0>
+07:47:05 AM: DEBUG [producto_dao.py:80] Objeto eliminado: 
+            ID Producto: 1, codigo: None,
+            Nombre: None, Precio: None
+        
+07:47:05 AM: DEBUG [producto_dao.py:116] 
+            ID Producto: 2, codigo: XXQ,
+            Nombre: Ajinomen, Precio: 10.0
+        
+07:47:05 AM: DEBUG [producto_dao.py:116] 
+            ID Producto: 3, codigo: XXB,
+            Nombre: Galleta Ritz, Precio: 3.0
+        
+08:31:50 AM: DEBUG [conexion.py:16] Conexion exitosa: <sqlite3.Connection object at 0x000002065AC05210>
+08:31:50 AM: DEBUG [conexion.py:29] Se abrio correctamente el cursor: <sqlite3.Cursor object at 0x000002065B11A5C0>
+08:31:50 AM: DEBUG [producto_dao.py:46] Producto insertado: 
+            ID Producto: None, codigo: XXAA,
+            Nombre: Detergente, Precio: 23.0
+        
+08:31:50 AM: DEBUG [aplicacion.py:21] Productos insertados: 1
+08:49:20 AM: DEBUG [conexion.py:16] Conexion exitosa: <sqlite3.Connection object at 0x00000296B2525210>
+08:49:20 AM: DEBUG [aplicacion.py:43] 
+            ID Producto: 2, codigo: XXQ,
+            Nombre: Ajinomen, Precio: 10.0
+        
+08:49:20 AM: DEBUG [aplicacion.py:43] 
+            ID Producto: 3, codigo: XXB,
+            Nombre: Galleta Ritz, Precio: 3.0
+        
+08:49:20 AM: DEBUG [aplicacion.py:43] 
+            ID Producto: 4, codigo: XXAA,
+            Nombre: Detergente, Precio: 23.0
+        
+08:55:06 AM: INFO [aplicacion.py:49] tablas disponibles: {cls._TABLA}
+08:55:06 AM: DEBUG [conexion.py:16] Conexion exitosa: <sqlite3.Connection object at 0x0000028F550A5210>
+08:55:06 AM: ERROR [conexion.py:47] 
+                        La tabla ya esta creada: [table PRODUCTO already exists]
+                        

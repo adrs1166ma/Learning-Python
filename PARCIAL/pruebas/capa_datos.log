@@ -1,0 +1,49 @@
+02:55:13 AM: DEBUG [logger_base.py:12] Mensaje a nivel debug
+02:55:13 AM: INFO [logger_base.py:13] Mensaje a nivel info
+02:55:13 AM: WARNING [logger_base.py:14] Mensaje a nivel de warning
+02:55:13 AM: ERROR [logger_base.py:15] Mensaje a nivel de error
+02:55:13 AM: CRITICAL [logger_base.py:16] Mensaje a nivel critico
+03:12:41 AM: DEBUG [conexion.py:15] Conexion exitosa: <sqlite3.Connection object at 0x00000118660B5210>
+03:12:41 AM: ERROR [conexion.py:31] Ocurrio una excepcion al obtener el cursor: 'function' object has no attribute 'cursor'
+03:17:28 AM: DEBUG [conexion.py:15] Conexion exitosa: <sqlite3.Connection object at 0x00000147FAE75210>
+03:17:28 AM: ERROR [conexion.py:31] Ocurrio una excepcion al obtener el cursor: 'function' object has no attribute 'cursor'
+03:20:17 AM: DEBUG [conexion.py:15] Conexion exitosa: <sqlite3.Connection object at 0x0000020763D15210>
+03:20:17 AM: DEBUG [conexion.py:28] Se abrio correctamente el cursor: <sqlite3.Cursor object at 0x00000207643A9EC0>
+03:21:30 AM: DEBUG [conexion.py:15] Conexion exitosa: <sqlite3.Connection object at 0x000002BB413F5210>
+03:21:30 AM: DEBUG [conexion.py:28] Se abrio correctamente el cursor: <sqlite3.Cursor object at 0x000002BB41859EC0>
+03:35:35 AM: DEBUG [persona.py:43] 
+            ID Producto: 1, codigo: XXA,
+            Nombre: Ace, Precio: 29
+        
+03:35:35 AM: DEBUG [persona.py:47] 
+            ID Producto: None, codigo: XXC,
+            Nombre: Ore, Precio: 2.50
+        
+03:35:35 AM: DEBUG [persona.py:51] 
+            ID Producto: 1, codigo: None,
+            Nombre: None, Precio: None
+        
+03:37:22 AM: DEBUG [persona.py:43] 
+            ID Producto: 1, codigo: XXA,
+            Nombre: Ace, Precio: 29
+        
+03:37:22 AM: DEBUG [persona.py:47] 
+            ID Producto: None, codigo: XXC,
+            Nombre: Ore, Precio: 2.50
+        
+03:37:22 AM: DEBUG [persona.py:51] 
+            ID Producto: 1, codigo: None,
+            Nombre: None, Precio: None
+        
+03:37:30 AM: DEBUG [persona.py:43] 
+            ID Producto: 1, codigo: XXA,
+            Nombre: Ace, Precio: 29
+        
+03:37:30 AM: DEBUG [persona.py:47] 
+            ID Producto: None, codigo: XXC,
+            Nombre: Ore, Precio: 2.50
+        
+03:37:30 AM: DEBUG [persona.py:51] 
+            ID Producto: 1, codigo: None,
+            Nombre: None, Precio: None
+        

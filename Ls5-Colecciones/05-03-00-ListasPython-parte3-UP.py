@@ -19,7 +19,9 @@ nombres[3] = 'Ivone'
 print(nombres)
 #iterar una lista
 for nombre in nombres:
-    print(nombre)
+
+    print(nombre[0])
+    print(nombre[1])
 else:
     print('No existen más nombres en la lista')
 # preguntar el largo de una lista

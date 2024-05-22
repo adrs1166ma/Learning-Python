@@ -32,10 +32,10 @@ class Conexion:
         if cls._cursor is None:
             try:
                 cls._cursor = cls.obtenerConexion().cursor()
-                log.debug(f'Se abrio correctamente el cursos: {cls._cursor}')
+                log.debug(f'Se abrio correctamente el cursor: {cls._cursor}')
                 return cls._cursor
             except Exception as e:
-                log.error(f'Ocurrio una excepcion al obtener el cursos: {e}')
+                log.error(f'Ocurrio una excepcion al obtener el cursor: {e}')
                 sys.exit()
         else:
             return cls._cursor

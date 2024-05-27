@@ -24,7 +24,11 @@ for i in range(n):
     print(denominador)
     print('\n')
 
-print(*L, sep='] + [')
+#print(*L, sep='] + [')
+expresion1 = ' + '.join([f'{L[i]}*[{y[i]}]' for i in range(n)])
+expresion2 = ' + '.join([f'{L[i]*y[i]}' for i in range(n)])
+print(expresion1)
+print(expresion2)
 yint = np.sum(L * y)
 #60 -420 1134 -1260 490
 print(f'El resultado es = {yint}\n')
